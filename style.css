@@ -1,0 +1,119 @@
+body{
+    margin: auto;
+    max-width: 800px;
+    position: absolute;
+    left: 400px;
+    
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#start{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    
+}
+#box1{
+    font-family: sans-serif ;
+   
+    background-color: rgb(243, 235, 235);
+    margin: auto;
+    display: flex;
+    justify-content:space-around ;
+    
+    
+}
+#explanation{
+    
+}
+#double{
+    background-color: rgb(97, 107, 104);
+    margin: auto;
+    position: relative;
+    bottom: 21px;
+    max-width: 800px;
+    max-height: 100px;
+}
+#footer{
+     display: flex;
+    justify-content: space-between;
+}
+#script{
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#easy{
+    font-size: smalll;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#math-phisics{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+#quimistry-english{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#maths,#phisics,#english,#quimistry{
+    
+    border-radius: 3px;
+    background-image: linear-gradient(to right,#fff,rgb(147, 147, 242));
+    box-shadow: 3px 3px 8px;
+}
+#quimistry,#english{
+    position: relative;
+    top: 15px;
+}
+#offeredsubjects{
+    text-align: center;
+}
+
+
+#mat,#fi,#qui,#eng{
+    border-radius: 3px;
+    background-color: blue;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 16px;
+    
+}
+#whatsapp-button{
+    
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 18px;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,3);
+    z-index: 1000;
+}
+#whatsapp-button:hover{
+    background: #1ebe5d;
+}
+
+
+#footer{
+    background-color: yellow;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(15, 15, 176);
+    color: #fff;
+}
